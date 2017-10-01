@@ -1,0 +1,35 @@
+-injars 'F:\Workspace\Datafx\build\javafxports\tmp\android\multi-dex\allclasses.jar'
+-outjars 'F:\Workspace\Datafx\build\javafxports\tmp\android\multi-dex\componentClasses.jar'
+
+-libraryjars 'D:\sdk\build-tools\26.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontnote
+-dontwarn
+-printconfiguration 'F:\Workspace\Datafx\build\javafxports\tmp\android\multi-dex\components.flags'
+
+
+-keep class android.support.multidex.MultiDexApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class javafxports.android.FXActivity {
+    <init>();
+}
+
+-keep class com.gluonhq.impl.charm.down.plugins.android.PermissionRequestActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

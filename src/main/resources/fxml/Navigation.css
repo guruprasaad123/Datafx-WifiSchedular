@@ -1,0 +1,64 @@
+/*******************************************************************************
+*                                                                              *
+* JFX List View                                                                *
+*                                                                              *
+*******************************************************************************/
+@font-face
+{
+    font-family:Roboto-Regular;
+    src: url("/font/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family:Mogra;
+    src:url("/font/Mogra.ttf");
+}
+.jfx-list-cell {
+    -fx-background-insets: 0.0;
+    -fx-text-fill: BLACK;
+}
+
+.jfx-list-cell:odd,
+.jfx-list-cell:even {
+    -fx-background-color: WHITE;
+}
+
+.jfx-list-cell:filled:hover,
+.jfx-list-cell:selected .label {
+    -fx-text-fill: black;
+}
+
+.jfx-list-cell .jfx-rippler {
+    -jfx-rippler-fill: #5264AE;
+}
+
+.jfx-list-cell:odd:selected > .jfx-rippler > StackPane,
+.jfx-list-cell:even:selected > .jfx-rippler > StackPane {
+    -fx-background-color: rgba(0.0, 0.0, 255.0, 0.2);
+}
+
+.jfx-list-view {
+
+    -fx-font-family :Mogra;
+    -fx-background-insets: 0.0;
+    -jfx-cell-horizontal-margin: 0.0;
+    -jfx-cell-vertical-margin: 0.0;
+    -jfx-vertical-gap: 0.0;
+    -jfx-expanded: false;
+}
+/* navigation list */
+.side-menu {
+
+    -fx-padding: 20.0, 10.0;
+    -fx-font-size: 15.0;
+    -fx-font-weight: NORMAL;
+    -fx-text-fill: #444;
+}
+
+/* Navigation list */
+
+.navlist{
+    -fx-font-family: Mogra;
+    -fx-font-size : 15px;
+    -fx-font-weight: BOLD;
+}
+

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.datafx:core:8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.datafx/core/8.0/b441ccbedc5821c287d185d597961651498476af/core-8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.datafx/core/8.0/29c0c01d7eae1ca277b4ad0a4725b8d73dddc86b/core-8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

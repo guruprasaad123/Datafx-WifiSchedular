@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Datafx.iml" filepath="$PROJECT_DIR$/Datafx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datafx_android.iml" filepath="$PROJECT_DIR$/.idea/modules/Datafx_android.iml" group="Datafx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datafx_desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/Datafx_desktop.iml" group="Datafx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datafx_embedded.iml" filepath="$PROJECT_DIR$/.idea/modules/Datafx_embedded.iml" group="Datafx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datafx_ios.iml" filepath="$PROJECT_DIR$/.idea/modules/Datafx_ios.iml" group="Datafx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datafx_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Datafx_main.iml" group="Datafx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Datafx_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Datafx_test.iml" group="Datafx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Workspace-Datafx.iml" filepath="$PROJECT_DIR$/.idea/modules/Workspace-Datafx.iml" />
+    </modules>
+  </component>
+</project>

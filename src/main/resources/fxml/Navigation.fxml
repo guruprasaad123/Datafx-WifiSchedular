@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import java.lang.String?>
+<?import de.jensd.fx.glyphs.materialicons.MaterialIconView?>
+<StackPane fx:id="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" stylesheets="@Navigation.css">
+    <styleClass>
+        <String fx:value="side-menu"/>
+    </styleClass>
+    <JFXListView fx:id="navigation">
+
+        <Label fx:id="Home" styleClass="navlist">Home
+        <graphic>
+            <MaterialIconView glyphName="HOME" size="25.0" wrappingWidth="27.0" >
+
+            </MaterialIconView>
+        </graphic>
+        </Label >
+        <Label fx:id="Schedule" styleClass="navlist" >Schedule
+        <graphic>
+            <MaterialIconView glyphName="NETWORK_WIFI" size="25.0" wrappingWidth="27.0" />
+        </graphic>
+        </Label>
+        <Label fx:id="ScheduleList" styleClass="navlist" >
+            ScheduleList
+            <graphic>
+                <MaterialIconView glyphName="PLAYLIST_ADD" size="25.0" wrappingWidth="27.0" />
+            </graphic>
+        </Label>
+
+    </JFXListView>
+</StackPane>
